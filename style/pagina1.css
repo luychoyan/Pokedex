@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:#ff0012;
+    padding: 10px;
+}
+
+header > h1{
+    margin-left: 70px;
+    
+}
+
+img{
+    
+
+
+}
+
+nav{
+    text-align: right;
+}
+
+main{
+    
+    background-color: blue;
+    padding: 50px;
+}
+
+h3{
+    color: #fafafa;
+    text-align: center;
+}
+
+div{
+    
+    text-align: center;
+    background-color: rgb(119, 126, 123);
+    margin: 10px;
+    width: 220px;
+}
