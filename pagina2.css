@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-
 
 
 .cabecalho{
@@ -77,13 +73,6 @@ header a{
     
 }
 
-body{
-    background: url('../imagens/background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-       
-}
 
 main{
     margin: auto;
@@ -94,60 +83,11 @@ main{
     
 }
 
-main h3{
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.538);
-    margin-top: 20px;
-    color: #fafafa;
-    text-align: center;
-    font-family: 'Sigmar', cursive;
-}
 
-main div p{
-    
-    margin: auto;
-    text-align: center;
-    color: #fafafa;
-    
-}
-
-
-main div p.botao{
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.498);
-    box-shadow: 2px 2px 2px black;
-    width: 75px;
-    height: 17px;
-    padding: 5px;
-    border-radius: 20px;
-    background-color: #fafafa;
-}
-
-
-main div p.botao:hover{
-    text-decoration: #fafafa;
-    background-color: #cd0310;
-    
-}
-
-main a{
-    
-    text-decoration: none;
-    color:black;
-    text-align: center;
-}
-
-main div.pokemon{
-    
-    padding: 5px;
-    margin: auto;
-    display: inline-block;
-    text-align: center;
-    width: 170px;
-    
-}
-
-.pokemon img{
-    
-    width: 100px;
-    height: 100px;
+body{
+    background: url('../imagens/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+       
 }
