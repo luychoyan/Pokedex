@@ -77,12 +77,12 @@ header a{
 }
 
 body{
-    
+    margin: auto;
     background: url('../imagens/background.png');
-   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
        
 }
 
@@ -126,7 +126,7 @@ main div p.botao{
 
 
 main div p.botao:hover{
-    
+
     text-decoration: #fafafa;
     background-color: #cd0310;
     
