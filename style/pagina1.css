@@ -11,25 +11,26 @@
 
 
 .cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: 'Source Sans Pro', sans-serif;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-image: radial-gradient(#ff0012, #212121 );
     padding: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.498);
-    height: 130px;
-    
+    height: 150px;
+        
 }
 
 
 .pokebola-titulo{
-    margin-bottom: 30px;
-    margin-top: 30px;
+
+    margin-top: 25px;
     text-align: left;
     display: inline-flex
 }
+
 .logo{
     text-shadow: 3px 3px 3px black;
     width: 70px; 
@@ -47,18 +48,14 @@
 }
 
 .links{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
-    
     text-align: center;
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-    padding: 5px;
-    width: 500px;
-    
-
+    padding: 3px;
 }
+
 .link{
     
     font-size: 28px;
@@ -80,7 +77,9 @@ header a{
 }
 
 body{
+    
     background: url('../imagens/background.png');
+   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -127,6 +126,7 @@ main div p.botao{
 
 
 main div p.botao:hover{
+    
     text-decoration: #fafafa;
     background-color: #cd0310;
     
@@ -145,7 +145,7 @@ main div.pokemon{
     margin: auto;
     display: inline-block;
     text-align: center;
-    width: 170px;
+    width: 130px;
     
 }
 
