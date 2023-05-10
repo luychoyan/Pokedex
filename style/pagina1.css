@@ -10,10 +10,15 @@
 
 
 .cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-image: radial-gradient(#ff0012, #212121 );
     padding: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.498);
     height: 130px;
+    max-width: 1920px;
+    min-width:300px;
     
 }
 
@@ -28,8 +33,8 @@
     display: inline-flex
 }
 .logo{
-    width: 70px;
-    
+    width: 70px; 
+    height: 70px; 
 }
 
 .titulo{
@@ -39,6 +44,13 @@
     font-size: 50px;
     width: 250px;
     color: #fafafa; 
+}
+
+.links{
+    display:flex ;
+    gap: 30px;
+    min-width: 5px;
+
 }
 
 
@@ -67,8 +79,8 @@ main{
     text-align: center;
     background-color:#9e9e9eb5 ; 
     padding: 10px;
-    max-width: 1200px;
-    min-width:650px ;
+    max-width: 900px;
+    min-width:300px ;
     
 }
 
