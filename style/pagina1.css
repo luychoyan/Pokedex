@@ -10,36 +10,43 @@
 
 
 
-.cabecalho{
+.cabecalho {
+
     margin: auto;
     margin-top: 50px;
+
     display: flex;
     justify-content: center;
+
     font-family: 'Source Sans Pro', sans-serif;
+
     background-color: rgb(198, 4, 33);
     padding: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.51);
+    
     height: 150px;
     max-width: 600px;
+    min-width: 200px;
+
     border-radius: 20px  20px  5px 5px;
     border: 5px solid black;
         
 }
 
 
-.pokebola-titulo{
+.pokebola-titulo {
     display: flex;
     align-self: center;
     
 }
 
-.logo{
+.logo {
     text-shadow: 3px 3px 3px black;
     width: 100px; 
     height: 100px; 
 }
 
-.titulo{
+.titulo {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.611);
     font-family: 'Secular One', sans-serif;
     font-weight: bolder;
@@ -50,7 +57,7 @@
 
 
 
-header a{
+header a {
     
     font-weight: bold;
     font-size:21px ;
@@ -60,7 +67,7 @@ header a{
     
 }
 
-body{
+body {
     
     background: url('../imagens/pexels-alexander-kovalev-2847648.jpg');
     background-repeat: no-repeat;
@@ -70,7 +77,7 @@ body{
        
 }
 
-main{
+main {
     font-family: 'Source Sans Pro', sans-serif;
 
     margin: auto;
@@ -85,14 +92,17 @@ main{
     padding-bottom: 10px;
 
     max-width: 612px;
+    min-width: 200px;
 
     border-radius: 0px 0px 20px 20px;
     border: 2px solid black;
+
+    filter: blur(0.5px);
     
     
 }
 
-main h3{
+main h3 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.538);
     margin-top: 20px;
     color: #fafafa;
@@ -100,7 +110,7 @@ main h3{
     font-family: 'Sigmar', cursive;
 }
 
-main div p{
+main div p {
     
     margin: auto;
     text-align: center;
@@ -109,7 +119,7 @@ main div p{
 }
 
 
-main div p.botao{
+main div p.botao {
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.498);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.513);
@@ -117,10 +127,10 @@ main div p.botao{
     height: 20px;
     padding: 3px;
     border-radius: 20px;
-    background-color: #fafafa;
+    background-color: #edeaea;
 }
 
-main div p.botao:hover{
+main div p.botao:hover {
 
     background-color: rgb(40, 39, 39);
     transition: 0.2s;
@@ -132,19 +142,19 @@ a{
     
 }
 
-a:hover{
+a:hover {
     transition: 0.2s;
     color: #fafafa;
 }
 
-main a{
+main a {
     
     text-decoration: none;
     color:black;
     text-align: center;
 }
 
-main div.pokemon{
+main div.pokemon {
     
     padding: 5px;
     margin: auto;
@@ -154,18 +164,18 @@ main div.pokemon{
     
 }
 
-.pokemon img{
+.pokemon img {
     width: 100px;
     height: 100px;
-
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.527));
     transition: 0.3s;
 }
 
-.pokemon img:hover{
+.pokemon img:hover {
     width: 120px;
     height: 120px;
 }
 
-.numero{
+.numero {
     padding: 7px;
 }
