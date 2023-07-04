@@ -1,2 +1,2 @@
 # Pokedex
- Meu próprio projeto
+ Ainda estou ajustando essa pagina...
